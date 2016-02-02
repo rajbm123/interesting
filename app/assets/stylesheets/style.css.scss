@@ -1,7 +1,21 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+     html, body {
+  	height: 100%;
+  }
+	.auto_fix {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -50px;
+	}
+	.footer {
+		height: 50px;
+		background: #3f51b5;
+		width: 100%;
+		clear: both;
+	}
 .alert {
     border: 0px;
     border-radius: 0;
